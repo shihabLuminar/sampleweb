@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #1a73e8;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.1rem;
+      margin-top: 10px;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .about {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .about img {
+      width: 200px;
+      border-radius: 50%;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 15px;
+    }
+    .skills li {
+      background: #fff;
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+      text-align: center;
+      font-weight: bold;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+    footer {
+      background: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Flutter Developer | Mobile App Enthusiast</p>
+  </header>
+
+  <section class="section about">
+    <img src="https://via.placeholder.com/200" alt="Profile" />
+    <div>
+      <h2>About Me</h2>
+      <p>
+        I am a passionate mobile application developer specializing in Flutter.
+        I love building beautiful UI, smooth animations, and scalable apps.
+      </p>
+    </div>
+  </section>
+
+  <section class="section skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Flutter</li>
+      <li>Dart</li>
+      <li>Firebase</li>
+      <li>REST APIs</li>
+      <li>Git / GitHub</li>
+      <li>UI/UX</li>
+    </ul>
+  </section>
+
+  <section class="section projects">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project 1</h3>
+      <p>A mobile app built using Flutter with modern UI.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 2</h3>
+      <p>Another app focusing on API integration and state management.</p>
+    </div>
+    <div class="project-card">
+      <h3>Project 3</h3>
+      <p>Experimented with animations and responsive layouts.</p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Your Name | All Rights Reserved
+  </footer>
+</body>
+</html>
